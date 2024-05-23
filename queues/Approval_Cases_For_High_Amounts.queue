@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Approval_Cases_For_High_Amounts</name>
+    <queueMembers>
+        <users>
+            <user>adribirra@gmail.com.dev.gh.pc</user>
+            <user>integration@00daj000006dmhceaa.com</user>
+            <user>insightssecurity@00daj000006dmhceaa.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

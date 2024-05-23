@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commercial Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commercial Invoices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account_Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing_Date --></label>
+        <name>Billing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice_Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity_Name --></label>
+        <name>Opportunity__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Commercial_Invoice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Commercial_Invoice_Record_Type --></label>
+        <name>Commercial_Invoice_Record_Type</name>
+    </recordTypes>
+</CustomObjectTranslation>
