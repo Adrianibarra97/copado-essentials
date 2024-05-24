@@ -11,6 +11,7 @@
     <fields>
         <label><!-- Account_Name --></label>
         <name>Account_Name__c</name>
+        <relationshipLabel><!-- Commercial Invoices --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Billing_Date --></label>
@@ -22,7 +23,8 @@
     </fields>
     <fields>
         <label><!-- Opportunity_Name --></label>
-        <name>Opportunity__c</name>
+        <name>Opportunity_Name__c</name>
+        <relationshipLabel><!-- Commercial Invoices --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
     <layouts>

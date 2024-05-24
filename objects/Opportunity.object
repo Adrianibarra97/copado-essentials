@@ -833,11 +833,11 @@
         <active>true</active>
         <errorConditionFormula>AND(
  OR(
-  ISPICKVAL( Type , &quot;Croquettes sale&quot;),
-  ISPICKVAL( Type , &quot;Accessories sale&quot;)
+  RecordType.DeveloperName = &quot;Croquettes_Sale_Record_Type&quot;,
+  RecordType.DeveloperName = &quot;Accesory_Sale_Record_Type&quot;
  ),
  ISPICKVAL( StageName , &quot;Closed Won&quot;),
- ISBLANK(Account.Social_Reason__c)  
+ ISBLANK(Account.Social_Reason__c)
 )</errorConditionFormula>
         <errorDisplayField>StageName</errorDisplayField>
         <errorMessage>The &quot;Social Reason&quot; field of the account cannot be null.</errorMessage>

@@ -161,13 +161,15 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Account_Name__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
         <externalId>false</externalId>
         <label>Account_Name</label>
-        <length>100</length>
-        <required>true</required>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Commercial Invoices</relationshipLabel>
+        <relationshipName>Commercial_Invoices</relationshipName>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Billing_Date__c</fullName>
@@ -186,14 +188,16 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
-        <fullName>Opportunity__c</fullName>
+        <fullName>Opportunity_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Opportunity_Name</label>
-        <length>100</length>
-        <required>true</required>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Commercial Invoices</relationshipLabel>
+        <relationshipName>Commercial_Invoices</relationshipName>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
     <gender>Feminine</gender>
     <label>Commercial Invoice</label>

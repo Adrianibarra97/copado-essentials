@@ -1053,7 +1053,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Commercial_Invoice__c.Account_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Commercial_Invoice__c.Invoice_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Commercial_Invoice__c.Opportunity_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
